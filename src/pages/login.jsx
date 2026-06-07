@@ -1,19 +1,21 @@
 function Login() {
   return (
-    <div>
-      <h1>Login</h1>
+    <div className="auth-container">
+      <div className="auth-card">
+        <h1>Login</h1>
 
-      <input
-        type="email"
-        placeholder="Email"
-      />
+        <input
+          type="email"
+          placeholder="Email"
+        />
 
-      <input
-        type="password"
-        placeholder="Password"
-      />
+        <input
+          type="password"
+          placeholder="Password"
+        />
 
-      <button>Login</button>
+        <button>Login</button>
+      </div>
     </div>
   );
 }
